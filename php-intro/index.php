@@ -14,20 +14,27 @@ user('Eduardo', 89, $categorias);
 function user($name, $age, $array) {
     switch ($age) {
         case ($age <= 10):
-            echo "É $array[0].";
+            echo "$name é $array[0].";
             break;
         case ($age >= 11 && $age <= 18):
-            echo "É $array[1].";
+            echo "$name+$array[1].";
             break;
         case ($age >= 19 && $age <= 65):
-            echo "É $array[2].";
+            echo "$name+$array[2].";
             break;
         case ($age >= 66):
-            echo "É $array[3].";
+            echo "$name é $array[3].";
             break;
     }
 }
 
 // var_dump($nome, $idade); // Printa nome e idade.
+
+/* FOR
+
+for($i = 0; $i < count($"variável"; $i++) {}
+
+*/
+
 
 ?>
