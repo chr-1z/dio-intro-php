@@ -17,10 +17,10 @@ function user($name, $age, $array) {
             echo "$name é $array[0].";
             break;
         case ($age >= 11 && $age <= 18):
-            echo "$name+$array[1].";
+            echo "$name é $array[1].";
             break;
         case ($age >= 19 && $age <= 65):
-            echo "$name+$array[2].";
+            echo "$name é $array[2].";
             break;
         case ($age >= 66):
             echo "$name é $array[3].";
